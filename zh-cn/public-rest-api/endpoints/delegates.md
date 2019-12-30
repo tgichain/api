@@ -24,7 +24,7 @@ GET /api/v2/delegates
 ### 请求示例1
 
 ```shell
-curl https://api.ark.io/api/v2/delegates
+curl http://openapi.tgichain.com/api/v2/delegates
 ```
 ### 返回结果1
 
@@ -74,7 +74,7 @@ curl https://api.ark.io/api/v2/delegates
 
 ### 请求示例2
 ```shell
-curl "https://api.ark.io/api/v2/delegates?page=5&limit=2"
+curl "http://openapi.tgichain.com/api/v2/delegates?page=5&limit=2"
 ```
 
 ### 请求结果2
@@ -168,15 +168,15 @@ GET /api/v2/delegates/{username|address|publicKey}
 ### 请求示例
 
 ```shell
-curl https://api.ark.io/api/v2/delegates/microsof
+curl http://openapi.tgichain.com/api/v2/delegates/microsof
 ```
 
 ```shell
-curl https://api.ark.io/api/v2/delegates/MR7E7tr2M4tQ3PdV8JcpSefiyDw8SdeeNv
+curl http://openapi.tgichain.com/api/v2/delegates/MR7E7tr2M4tQ3PdV8JcpSefiyDw8SdeeNv
 ```
 
 ```shell
-curl https://api.ark.io/api/v2/delegates/032370229ca464d1b6c1265c998dbdae5c7c4a7212e771df987dc1eca2247308a3
+curl http://openapi.tgichain.com/api/v2/delegates/032370229ca464d1b6c1265c998dbdae5c7c4a7212e771df987dc1eca2247308a3
 ```
 ### 返回结果
 
@@ -238,7 +238,7 @@ GET /api/v2/delegates/{username|address|publicKey}/blocks
 ### 请求示例
 
 ```shell
-curl "https://api.ark.io/api/v2/delegates/microsof/blocks?page=5&limit=2"
+curl "http://openapi.tgichain.com/api/v2/delegates/microsof/blocks?page=5&limit=2"
 ```
 
 ### 返回结果
@@ -339,7 +339,7 @@ GET /api/delegates/{username|address|publicKey}/voters
 ### 请求示例
 
 ```shell
-curl https://api.ark.io/api/v2/delegates/MR7E7tr2M4tQ3PdV8JcpSefiyDw8SdeeNv/voters?page=5&limit=2
+curl http://openapi.tgichain.com/api/v2/delegates/MR7E7tr2M4tQ3PdV8JcpSefiyDw8SdeeNv/voters?page=5&limit=2
 ```
 
 ### 返回结果
@@ -423,7 +423,7 @@ POST /api/v2/delegates/search
 ### 请求示例
 
 ```shell
-curl --data 'producedBlocks={ "from": 60000 }' https://api.ark.io/api/v2/delegates/search
+curl --data 'producedBlocks={ "from": 60000 }' http://openapi.tgichain.com/api/v2/delegates/search
 ```
 ### 返回结果
 

@@ -24,7 +24,7 @@ GET /api/v2/votes
 ### 请求示例
 
 ```shell
-curl https://api.ark.io/api/v2/votes?page=5&limit=2
+curl http://openapi.tgichain.com/api/v2/votes?page=5&limit=2
 ```
 
 ### 返回结果
@@ -104,7 +104,7 @@ GET /api/v2/votes/{id}
 ### 请求示例
 
 ```shell
-curl https://api.ark.io/api/v2/votes/13e83d207a062bbd5ffeba833d285664608e8e20a5fd6caf42d830883aa24f90
+curl http://openapi.tgichain.com/api/v2/votes/13e83d207a062bbd5ffeba833d285664608e8e20a5fd6caf42d830883aa24f90
 ```
 
 ### 返回结果

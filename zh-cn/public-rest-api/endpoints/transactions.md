@@ -19,7 +19,7 @@ POST /api/v2/transactions
 ### 请求示例
 
 ```shell
-curl -d "" https://api.ark.io/api/v2/transactions
+curl -d "" http://openapi.tgichain.com/api/v2/transactions
 ```
 
 ### 返回结果
@@ -64,7 +64,7 @@ GET /api/v2/transactions/{id}
 ### 请求示例
 
 ```shell
-curl https://api.ark.io/api/v2/transactions/5a8fbca13bd6cbdd1dc5508598a4c33eeb3c8260a1fe2240887fc1752b47bb51
+curl http://openapi.tgichain.com/api/v2/transactions/5a8fbca13bd6cbdd1dc5508598a4c33eeb3c8260a1fe2240887fc1752b47bb51
 ```
 
 ### 返回结果
@@ -114,7 +114,7 @@ GET /api/v2/transactions
 ### 请求示例
 
 ```shell
-curl https://api.ark.io/api/v2/transactions?limit=2
+curl http://openapi.tgichain.com/api/v2/transactions?limit=2
 ```
 
 ### 返回结果
@@ -189,7 +189,7 @@ GET /api/transactions/unconfirmed/
 ### 请求示例
 
 ```shell
-curl https://api.ark.io/api/v2/transactions/unconfirmed?limit=5&page=1
+curl http://openapi.tgichain.com/api/v2/transactions/unconfirmed?limit=5&page=1
 ```
 
 ### 返回结果
@@ -250,7 +250,7 @@ GET /api/v2/transactions/unconfirmed/{id}
 ### 请求示例
 
 ```shell
-curl https://api.ark.io/api/v2/transactions/unconfirmed/5a8fbca13bd6cbdd1dc5508598a4c33eeb3c8260a1fe2240887fc1752b47bb51
+curl http://openapi.tgichain.com/api/v2/transactions/unconfirmed/5a8fbca13bd6cbdd1dc5508598a4c33eeb3c8260a1fe2240887fc1752b47bb51
 ```
 
 ### 返回结果
@@ -321,7 +321,7 @@ POST /api/v2/transactions/search
 ### 请求示例
 
 ```shell
-curl --data 'amount={ "from": 100000000000000,"to":100000100000000 }' https://api.ark.io/api/v2/transactions/search
+curl --data 'amount={ "from": 100000000000000,"to":100000100000000 }' http://openapi.tgichain.com/api/v2/transactions/search
 ```
 
 ### 返回结果
@@ -375,7 +375,7 @@ GET /api/v2/transactions/types
 ### 请求示例
 
 ```shell
-curl https://api.ark.io/api/v2/transactions/types
+curl http://openapi.tgichain.com/api/v2/transactions/types
 ```
 
 ### 返回结果
@@ -411,7 +411,7 @@ GET /api/v2/transactions/fees
 ### 请求示例
 
 ```shell
-curl https://api.ark.io/api/v2/transactions/fees
+curl http://openapi.tgichain.com/api/v2/transactions/fees
 ```
 
 ### 返回结果

@@ -13,7 +13,7 @@ GET /api/v2/node/configuration
 ### 请求示例
 
 ```shell
-curl https://api.ark.io/api/v2/node/configuration
+curl http://openapi.tgichain.com/api/v2/node/configuration
 ```
 
 ### 返回结果
@@ -103,7 +103,7 @@ GET /api/v2/node/status
 ### 请求示例
 
 ```shell
-curl https://api.ark.io/api/v2/node/status
+curl http://openapi.tgichain.com/api/v2/node/status
 ```
 
 ### 返回结果
@@ -133,7 +133,7 @@ GET /api/v2/node/syncing
 ### 请求示例
 
 ```shell
-curl https://api.ark.io/api/v2/node/syncing
+curl http://openapi.tgichain.com/api/v2/node/syncing
 ```
 
 ### 返回结果

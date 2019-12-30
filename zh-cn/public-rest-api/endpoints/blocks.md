@@ -22,7 +22,7 @@ GET /api/v2/blocks
 ### 请求示例1
 
 ```shell
-curl https://api.ark.io/api/v2/blocks?limit=2
+curl http://openapi.tgichain.com/api/v2/blocks?limit=2
 ```
 
 ### 返回结果1
@@ -100,7 +100,7 @@ curl https://api.ark.io/api/v2/blocks?limit=2
 ### 请求示例2
 
 ```shell
-curl https://api.ark.io/api/v2/blocks?height=1283475
+curl http://openapi.tgichain.com/api/v2/blocks?height=1283475
 ```
 ### 返回结果2
 
@@ -168,11 +168,11 @@ GET /api/blocks/{id|height}
 ### 请求示例
 
 ```shell
-curl https://api.ark.io/api/v2/blocks/14573972898629373888
+curl http://openapi.tgichain.com/api/v2/blocks/14573972898629373888
 ```
 
 ```shell
-curl https://api.ark.io/api/v2/blocks/1283475
+curl http://openapi.tgichain.com/api/v2/blocks/1283475
 ```
 
 ### 返回结果
@@ -236,7 +236,7 @@ GET /api/blocks/{id|height}/transactions
 ### 请求示例
 
 ```shell
-curl https://api.ark.io/api/v2/blocks/2773147314821565087/transactions
+curl http://openapi.tgichain.com/api/v2/blocks/2773147314821565087/transactions
 ```
 
 ### 返回结果
@@ -327,7 +327,7 @@ POST /api/v2/blocks/search
 ### 请求示例
 
 ```shell
-curl --data 'numberOfTransactions={ "from": 2, "to": 5 }' https://api.ark.io/api/v2/blocks/search?limit=2
+curl --data 'numberOfTransactions={ "from": 2, "to": 5 }' http://openapi.tgichain.com/api/v2/blocks/search?limit=2
 ```
 ### 返回结果
 

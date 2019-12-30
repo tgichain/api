@@ -11,7 +11,7 @@ GET /api/v2/blockchain
 ### 请求示例
 
 ```shell
-curl https://api.ark.io/api/blockchain
+curl http://openapi.tgichain.com/api/blockchain
 ```
 
 ### 返回结果

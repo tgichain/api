@@ -22,7 +22,7 @@ GET /api/wallets
 ### 请求示例
 
 ```shell
-curl https://api.ark.io/api/v2/wallets?page=5&limit=2
+curl http://openapi.tgichain.com/api/v2/wallets?page=5&limit=2
 ```
 
 ### 返回结果
@@ -78,7 +78,7 @@ GET /api/v2/wallets/{id}
 ### 请求示例
 
 ```shell
-curl https://api.ark.io/api/v2/wallets/MKUq3eooqqAxvLyHjT4Keq3fuRrXS7iptf
+curl http://openapi.tgichain.com/api/v2/wallets/MKUq3eooqqAxvLyHjT4Keq3fuRrXS7iptf
 ```
 
 ### 返回结果
@@ -125,7 +125,7 @@ GET /api/v2/wallets/{id}/transactions
 ### 请求示例
 
  ```shell
-curl https://api.ark.io/api/v2/wallets/MKUq3eooqqAxvLyHjT4Keq3fuRrXS7iptf/transactions
+curl http://openapi.tgichain.com/api/v2/wallets/MKUq3eooqqAxvLyHjT4Keq3fuRrXS7iptf/transactions
  ```
 
 ### 返回结果
@@ -190,7 +190,7 @@ GET /api/v2/wallets/{id}/transactions/received
 ### 请求示例
 
 ```shell
-curl https://api.ark.io/api/v2/wallets/MKUq3eooqqAxvLyHjT4Keq3fuRrXS7iptf/transactions/received
+curl http://openapi.tgichain.com/api/v2/wallets/MKUq3eooqqAxvLyHjT4Keq3fuRrXS7iptf/transactions/received
 ```
 
 ### 返回结果
@@ -257,7 +257,7 @@ GET /api/v2/wallets/{id}/transactions/sent
 ### 请求示例
 
 ```shell
-curl https://api.ark.io/api/v2/wallets/MKUq3eooqqAxvLyHjT4Keq3fuRrXS7iptf/transactions/sent
+curl http://openapi.tgichain.com/api/v2/wallets/MKUq3eooqqAxvLyHjT4Keq3fuRrXS7iptf/transactions/sent
 ```
 
 ### 返回结果
@@ -322,7 +322,7 @@ GET /api/v2/wallets/{id}/votes
 ### 请求示例
 
 ```shell
-curl https://api.ark.io/api/v2/wallets/top?page=5&limit=2
+curl http://openapi.tgichain.com/api/v2/wallets/top?page=5&limit=2
 ```
 
 ###返回结果
@@ -384,7 +384,7 @@ GET /api/v2/wallets/top
 ### 请求示例
 
 ```shell
-curl https://api.ark.io/api/v2/wallets/top?page=5&limit=2
+curl http://openapi.tgichain.com/api/v2/wallets/top?page=5&limit=2
 ```
 
 ### 返回结果
@@ -457,7 +457,7 @@ POST /api/v2/wallets/search
 ### 请求示例
 
 ```shell
- curl --data 'balance={"from":100000000000,"to":100100000000}' https://api.ark.io/api/v2/wallets/search
+ curl --data 'balance={"from":100000000000,"to":100100000000}' http://openapi.tgichain.com/api/v2/wallets/search
 ```
 
 ### 返回结果

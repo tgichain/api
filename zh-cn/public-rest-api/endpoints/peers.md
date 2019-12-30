@@ -27,7 +27,7 @@ GET /api/v2/peers
 ### 请求示例
 
 ```shell
-curl https://api.ark.io/api/v2/peers?limit=1
+curl http://openapi.tgichain.com/api/v2/peers?limit=1
 ```
 
 
@@ -77,7 +77,7 @@ GET /api/v2/peers/{ip}
 ### 请求示例
 
 ```shell
-curl https://api.ark.io/api/v2/peers/114.115.141.56
+curl http://openapi.tgichain.com/api/v2/peers/114.115.141.56
 ```
 
 ### 返回参数
