@@ -1,0 +1,19 @@
+{
+  "name": "tgic-api-docs",
+  "version": "1.0.0",
+  "description": "> 《TGIC 核心API的使用参考指南》",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "convert": "node_modules/.bin/docsify-pdf-converter"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@139.9.112.199:2222/root/tgic-api-docs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "docsify-pdf-converter": "^2.0.7"
+  }
+}
