@@ -1,5 +1,5 @@
 
-* [文档介绍](README.md)
+* [文档介绍](intruduction.md)
 * Public Rest API
 	* [开始之前](zh-cn/public-rest-api/getting-started.md)
 	* [接口列表](zh-cn/public-rest-api/endpoints/blockchain.md)
