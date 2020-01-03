@@ -51,3 +51,5 @@ module.exports = {
 ```bash
 npm run convert
 ```
+
+5、生成PDF文件在pdf目录。
